@@ -30,4 +30,8 @@ $ py main.py
 ```
 After the inpainting task is completed the inpainted image is saved at the desired location
 
-### Results
+## Results
+**celebA**
+<p align='center'>
+<img src='tst_imgs/results.png'>
+</p>
