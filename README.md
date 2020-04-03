@@ -19,19 +19,19 @@ pip install -r requirements.txt
 1. This script assumes that the path to training images provided has a subfolder, and all images are inside that subfolder.
 To train GAN
 ```
-$ py trainGAN.py
+$ python trainGAN.py
 ```
 3. Current Saved model is trained on [CelebA dataset](https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8). Saved model is present in `saved_model` folder.
 
 ### To inpaint an image
 1. Script takes clean image(original image) as input and generates a patchy image out of that and tries to recover that patchy image. Meanwhile the original image is not used.
 ```
-$ py main.py
+$ python main.py
 ```
 After the inpainting task is completed the inpainted image is saved at the desired location
 
 ## Results
-**celebA**
+- **celebA Dataset**
 <p align='center'>
 <img src='tst_imgs/results.png'>
 </p>
